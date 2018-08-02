@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+}
+body{
+	font-family: 'Noto Serif', serif;
+	background: url(../Pictures/2.png) no-repeat;
+	background-size: cover;
+}
+.container-signup{
+	width: 400px;
+	background-color: #f0f4f0;
+	border-radius: 18px;
+	margin: 7% auto;
+	padding: 10px;
+	box-shadow: 0px 0px 62px #fff;
+}
+.container-signup h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.form-control{
+	margin-top: 30px;
+	width: 85%;
+	padding: 10px;
+	border-radius: 3px;
+	border:2px solid #333;
+	margin: 5px 5px;
+}
+.container-signup p{
+	text-align: center;
+	margin-top: 20px;
+}
+.button{
+	background-color: wheat;
+    padding: 7px 34px;
+    border-radius: 22px;
+    font-size: 15px;
+    color: black;
+    border:1px solid black;
+    transition: 0.5s;
+    margin: 0 auto;
+    display: block;
+}
+.button:hover{
+	cursor: pointer;
+	background-color: black;
+	color: #fff;
+}

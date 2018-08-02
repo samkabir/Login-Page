@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+}
+body{
+	font-family: 'Noto Serif', serif;
+	background: url(../Pictures/3.jpg) no-repeat;
+	background-size: cover;
+}
+.container{
+	margin: 7% auto;
+	padding: 20px 20px;
+	background-color: #f0f4f0;
+	border-radius: 18px;
+	width: 400px;
+	display: block;
+	box-shadow: 0px 0px 62px #fff;
+}
+.container h2{
+	margin:0 auto;
+	display: block;
+	text-align: 
+}
+.form-control{
+	margin:0 auto;
+	width: 85%;
+	padding: 10px;
+	border-radius: 3px;
+	border:2px solid #333;
+}
+.button{
+	margin:0 auto;
+	background-color: wheat;
+    padding: 7px 34px;
+    border-radius: 22px;
+    font-size: 15px;
+    color: black;
+    border:1px solid black;
+    transition: 0.5s;
+}
+.button:hover{
+	cursor: pointer;
+	background-color: black;
+	color: #fff;
+}
